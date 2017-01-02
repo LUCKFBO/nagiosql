@@ -1,0 +1,6 @@
+CHANGELOG 3.2.0 Service Pack 3
+---------------
+
+- [OK] Updating files for compatibility with mysqli
+- [OK] Updating files for compatibility with PHP 7
+
