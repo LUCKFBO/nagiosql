@@ -1,4 +1,4 @@
 # nagiosql service pack 3
 
-Updating files for compatibility with mysqli
-Updating files for compatibility with PHP 7
+Updating files from nagiosql for compatibility with Nagios Core 4x, mysqli and PHP 7
+
