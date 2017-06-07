@@ -276,7 +276,7 @@ class mysqldb {
       		$this->error   = true;
       		return false;
     	}
-    	$this->strDBId = @mysqli_connect($dbserver.":".$dbport,$dbuser,$dbpasswd);
+    	$this->strDBId = @mysqli_connect($dbserver,$dbuser,$dbpasswd);
     	// Session cannot be etablished
       	if(!$this->strDBId) {
       		$this->strErrorMessage .= "[".$this->arrSettings['db']['server']."] ".translate("Connection to the database server has failed by reason:")."::";
