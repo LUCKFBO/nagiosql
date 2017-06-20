@@ -99,7 +99,7 @@ class naginstall {
 		if ($_SESSION['install']['dbtype'] == "mysqli") {
 			$intStatus  = 0;
 			// Connect to database server
-			$this->mysqli = new mysqli($this->host.":".$this->port, $this->user, $this->pass);				
+			$this->mysqli = new mysqli($this->host, $this->user, $this->pass);				
 			if ($this->mysqli->connect_error) {
 				$strErrorMessage .= translate('Error while connecting to database:')."<br>".$this->mysqli->connect_errno."<br>\n";
 				$intStatus = 1;					
